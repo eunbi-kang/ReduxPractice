@@ -1,11 +1,11 @@
 import './App.css';
-import TodoListComponent from './component/TodoListComponent';
+import UseFormComponent from './component/UseFormComponent';
 
 
 function App() {
   return (
     <>
-      <TodoListComponent />
+      <UseFormComponent />
     </>
   );
 }
