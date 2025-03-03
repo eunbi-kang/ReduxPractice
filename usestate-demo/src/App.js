@@ -1,11 +1,11 @@
 import './App.css';
-import CounterComponent from './component/CounterComponent';
+import InputComponent from './component/InputComponent';
 
 
 function App() {
   return (
     <>
-      <CounterComponent />
+      <InputComponent />
     </>
   );
 }
