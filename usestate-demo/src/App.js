@@ -1,11 +1,11 @@
 import './App.css';
-import InputComponent from './component/InputComponent';
+import TodoListComponent from './component/TodoListComponent';
 
 
 function App() {
   return (
     <>
-      <InputComponent />
+      <TodoListComponent />
     </>
   );
 }
