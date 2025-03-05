@@ -1,7 +1,8 @@
-/* 모달 내부에 Form을 사용한 예시 */
+/* 🔥 모달 내부에 Form을 사용한 예시 */
 //    - 폼 검증: form.validateFields()를 통해 입력값 검증 수행
 //    - 메시지 표시: message.success를 통해 폼 제출 성공 시 알림을 띄움
 //    - 폼 초기화 : form.resetFields()를 사용하여 폼을 초기화
+
 import React, { useState } from 'react'
 import { Form, Button, Modal, message, Input } from "antd"
 import colors from '../styles/colors';

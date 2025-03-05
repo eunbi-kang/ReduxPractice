@@ -1,4 +1,4 @@
-/* 기본 모달 구현 예시 */
+/* 🔥 기본 모달 구현 예시 */
 // - 모달 열기: showModal 함수를 통해 isModalOpen을 true로 설정
 // - 모달 닫기: handleOk 및 handleCancel 함수를 통해 isModalOpen을 false로 설정합니다. okText, cancelText 속성을 통해 버튼 텍스트를 맞춤 설정
 // - open : (또는 이전 버전에서는 visible) 속성은 모달의 표시 여부를 제어
