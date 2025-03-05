@@ -4,6 +4,7 @@
 //    - 폼 초기화 : form.resetFields()를 사용하여 폼을 초기화
 import React, { useState } from 'react'
 import { Form, Button, Modal, message, Input } from "antd"
+import colors from '../styles/colors';
 
 function Antd2() {
     const showModal = () => {
@@ -31,12 +32,14 @@ function Antd2() {
     };
     return (
         <div>
-            <Button type="primary" onClick={showModal}>
+            <Button style={{ backgroundColor: colors.success, color: "#fff" }}
+                type="primary"
+                onClick={showModal}>
                 폼 모달 열기
             </Button>
             <Modal title="폼 입력하기"
                 open={isModalOpen}
-                footer={[<Button key="submit" type="primary" onClick={handleOk}>저장</Button>,
+                footer={[<Button style={{ backgroundColor: colors.success, color: "#fff" }} key="submit" type="primary" onClick={handleOk}>저장</Button>,
                 <Button key="cancel" onClick={handleCancel}>취소</Button>]}
                 onCancel={handleCancel}
             >
